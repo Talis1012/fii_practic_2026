@@ -17,7 +17,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "fp-2026-state-054609244415-us-east-1-an"
+    bucket  = "sesiunea-5-fiipractic-oidc"
     key     = "terraform.tfstate"
     region  = "us-east-1"
     encrypt = true
