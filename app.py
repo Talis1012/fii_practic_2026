@@ -4,6 +4,7 @@ from pytz import timezone
 
 app = Flask(__name__)
 
+#bbbbbbl
 BUCKET_NAME = "${bucket_name}"
 TABLE_NAME  = "${table_name}"
 REGION      = "${region}"
